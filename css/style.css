@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    background-image: url('/image/bg.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    background-position: center;
+    width: 100%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right__content {
+    margin: auto 50px;
+}
+
+.right__text {
+    margin-bottom: 30px;
+}
+
+.right__text-title {
+    font-size: 24px;
+    color: #212529;
+}
+
+.right__text-subtitle {
+    font-size: 14px;
+    color: #9EA0A5;
+    margin-top: 5px;
+}
