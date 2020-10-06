@@ -39,6 +39,11 @@
     margin-top: 5px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
 .form__input {
     display: flex;
     flex-direction: column;
